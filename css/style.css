@@ -85,3 +85,49 @@ nav li a:hover {
     margin: 0 25px;
 }
 /* Akhir Deskripsi-photo */
+
+/* Work, Education, dan Skill */
+  .flex-container div.work-educate {
+    color: white;
+    margin: 50px 30px 50px 0;
+    width: 600px;
+  }
+
+  section.work {
+      margin-bottom: 30px;
+  }
+
+  .work h5, .educate h5 {
+      margin-bottom: 15px;
+  }
+
+  .work h6, .educate h6 {
+    margin-top: 0px;
+}
+
+  .flex-container aside.sidebar {
+    color: white;
+    margin: 50px 0;
+    width: 300px;
+  }
+
+  .work-educate .work h3, 
+  .work-educate .educate h3,
+  .sidebar .skill h3 {
+      color: #FF9800;
+      text-align: center;
+      border-bottom: 1px solid grey;
+      padding-bottom: 10px;
+  }
+
+  .flex-container-skill {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .flex-container-skill img {
+      width: 80px;
+      align-self: center;
+      margin: 25px 0;
+  }
+  /* Akhir Work, Education, dan Skill */
