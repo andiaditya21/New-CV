@@ -87,14 +87,22 @@ nav li a:hover {
 /* Akhir Deskripsi-photo */
 
 /* Work, Education, dan Skill */
+
   .flex-container div.work-educate {
     color: white;
-    margin: 50px 30px 50px 0;
+    margin-right: 30px;
     width: 600px;
   }
 
   section.work {
       margin-bottom: 30px;
+  }
+
+  section.desc-photo,
+  section.work,
+  section.skill,
+  section.educate {
+      padding-top: 80px;
   }
 
   .work h5, .educate h5 {
@@ -107,7 +115,6 @@ nav li a:hover {
 
   .flex-container aside.sidebar {
     color: white;
-    margin: 50px 0;
     width: 300px;
   }
 
@@ -131,3 +138,52 @@ nav li a:hover {
       margin: 25px 0;
   }
   /* Akhir Work, Education, dan Skill */
+
+  /* Contact */
+  .contact {
+      background-color: lightskyblue;
+  }
+
+  .contact h3 {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .contact p {
+      text-align: center;
+  }
+
+  .contact .col-25 {
+      width: 25%;
+      float: left;
+      margin-top: 8px;
+  }
+
+  .contact .col-75 {
+      width: 75%;
+      float: left;
+      margin-top: 8px;
+  }
+
+  input[type=text], select, textarea {
+      width: 95%;
+      border: 1px solid grey;
+      border-radius: 4px;
+      padding: 10px;
+  }
+
+  input[type=submit] {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FF9800;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 30px;
+    float: right;
+  }
+
+  .clear {
+      clear: both;
+  }
+  /* Akhir Contact */

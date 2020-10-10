@@ -15,10 +15,10 @@
     <div class="container">
         <nav>
             <ul>
-                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="mainPage.html" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">Work Experience</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#educate">Education</a></li>
                 <li><a href="#skill">Skill</a></li>
                 <li><a href="#gallery">Gallery</a></li>
             </ul>
@@ -28,7 +28,7 @@
 
     <!-- Description - Photo -->
     <div class="container">
-        <section class="desc-photo">
+        <section class="desc-photo" id="about">
             <div class="flex-container">
                 <div class="col-desc">
                     <h1>ANDI ADITYA PRATAMA</h1>
@@ -52,21 +52,21 @@
     <main class="container">
         <div class="flex-container">
             <div class="work-educate" style="flex-grow: 1">
-                <section class="work" class="educate">
-                    <h3>Work Experience</h3>
-                    <ul>
-                        <li>
-                            <h5>Microcontroller Engineer</h5>
-                            <h6>2017</h6>
-                            <p>Pusat Penelitian Fisika, Lembaga Ilmu Pengetahuan Indonesia, PUSPIPTEK</p>
-                        </li>
-                        <li>
-                            <h5>Staff Administration</h5>
-                            <h6>2016</h6>
-                            <p>Plasa Telkom Kopo, PT. Telekomunikasi Indonesia</p>
-                        </li>
-                    </ul>
-                </section>
+                    <section class="work" id="work">
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>
+                                <h5>Microcontroller Engineer</h5>
+                                <h6>2017</h6>
+                                <p>Pusat Penelitian Fisika, Lembaga Ilmu Pengetahuan Indonesia, PUSPIPTEK</p>
+                            </li>
+                            <li>
+                                <h5>Staff Administration</h5>
+                                <h6>2016</h6>
+                                <p>Plasa Telkom Kopo, PT. Telekomunikasi Indonesia</p>
+                            </li>
+                        </ul>
+                    </section>
                 <section class="educate" id="educate">
                     <h3>Education</h3>
                     <ul>
@@ -98,8 +98,9 @@
                     </ul>
                 </section>
             </div>
-            <aside class="sidebar" style="flex-grow: 1">
-                <section class="skill" class="skill">
+
+            <aside class="sidebar" style="flex-grow: 1"id="skill">
+                <section class="skill">
                     <h3>Skill</h3>
                     <div class="flex-container-skill">
                         <img src="assets/icons/office.png" alt="">
@@ -113,6 +114,55 @@
           </div>
     </main>
     <!-- AkhirWork, Education, dan Skill-->
+
+    <!-- Form -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p>Isi kolom dibawah ini dengan data yang sebenarnya</p>
+            <form action="">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fullName">Fullname</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fullName" placeholder="Your Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cities">Cities</label>
+                    </div>
+                    <div class="col-75">
+                        <select name="cities" id="cities">
+                            <option value="makassar">Makassar</option>
+                            <option value="semarang">Semarang</option>
+                            <option value="yogyakarta">Yogyakarta</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea name="message" id="message" placeholder="Write some message" rows="10" cols="50"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+                <div class="clear"></div>
+                </form>
+        </div>
+    </div>
+    <!-- Akhir Form -->
 
     <!-- Icon -->
     <!-- Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from
