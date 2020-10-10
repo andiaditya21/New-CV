@@ -50,7 +50,12 @@ nav li a:hover {
 }
 
 .desc-photo {
-    margin-top: 100px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+section.desc-photo {
+    padding-top: 150px;
 }
 
 .flex-container .col-desc {
@@ -98,7 +103,7 @@ nav li a:hover {
       margin-bottom: 30px;
   }
 
-  section.desc-photo,
+  
   section.work,
   section.skill,
   section.educate {
