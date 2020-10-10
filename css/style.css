@@ -205,3 +205,34 @@ section.desc-photo {
       text-decoration: none;
   }
   /* Akhir footer */
+
+  /* gallery */
+  .gallery {
+    margin-top: 120px;
+  }
+
+  .picture-one,
+  .picture-two,
+  .picture-three {
+      display: flex;
+      box-sizing: border-box;
+  }
+  
+  .picture-one img {
+      height: 300px;
+      margin: 0 10px 0 10px;
+      border-radius: 10px;
+  }
+
+  .picture-two img {
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.picture-three img {
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+  /* Akhir gallery */
