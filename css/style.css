@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(41, 41, 41);
     font-family: "Montserrat", Arial, serif;
@@ -55,7 +59,7 @@ nav li a:hover {
 }
 
 section.desc-photo {
-    padding-top: 150px;
+    padding-top: 40px;
 }
 
 .flex-container .col-desc {
@@ -72,6 +76,21 @@ section.desc-photo {
 
 .col-desc p {
     line-height: 25px;
+}
+
+.col-desc a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: rgb(41, 41, 41);
+    background-color: #FF9800;
+    font-weight: 800;
+}
+
+.col-desc a:hover {
+    box-shadow: 0 0px 3px 3px grey;
 }
 
 .desc-photo img {
@@ -125,7 +144,8 @@ section.desc-photo {
 
   .work-educate .work h3, 
   .work-educate .educate h3,
-  .sidebar .skill h3 {
+  .sidebar .skill h3,
+  .gallery h3 {
       color: #FF9800;
       text-align: center;
       border-bottom: 1px solid grey;
@@ -146,7 +166,7 @@ section.desc-photo {
 
   /* Contact */
   .contact {
-      background-color: lightskyblue;
+      background-color: #71C9CE;
   }
 
   .contact h3 {
@@ -203,12 +223,25 @@ section.desc-photo {
 
   footer a {
       text-decoration: none;
+      color: grey;
   }
   /* Akhir footer */
 
   /* gallery */
   .gallery {
     margin-top: 120px;
+  }
+
+  .gallery h3 {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .container-gallery {
+      width: 70%;
+      margin:auto;
   }
 
   .picture-one,
@@ -219,20 +252,53 @@ section.desc-photo {
   }
   
   .picture-one img {
-      height: 300px;
+      height: 250px;
       margin: 0 10px 0 10px;
-      border-radius: 10px;
   }
 
   .picture-two img {
-    height: 200px;
+    height: 150px;
     margin: 10px;
-    border-radius: 10px;
 }
 
 .picture-three img {
-    height: 400px;
+    height: 300px;
     margin: 10px;
-    border-radius: 10px;
 }
-  /* Akhir gallery */
+  
+
+  .gallery img {
+    border-radius: 10px;
+    transition: .3s;
+  }
+
+
+
+.gallery .picture-one img:nth-child(1):hover  {
+      transform: scale(1.5) translateX(70px);
+}
+
+.gallery .picture-one img:nth-child(2):hover {
+    transform: scale(2.5) translateX(-70px);
+}
+
+.gallery .picture-two img:nth-child(1):hover {
+      transform: scale(3) translateX(10px);
+}
+
+.gallery .picture-two img:nth-child(2):hover {
+    transform: scale(2);
+}
+
+.gallery .picture-two img:nth-child(3):hover {
+    transform: scale(2) translateX(-50px);
+}
+
+.gallery .picture-three img:nth-child(1):hover {
+    transform: scale(2) translateX(70px);
+}
+
+.gallery .picture-three img:nth-child(2):hover {
+    transform: scale(1.5) translateX(-70px);
+}
+/* Akhir gallery */
